@@ -1,0 +1,19 @@
+# OS / 编辑器
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Node
+node_modules/
+npm-debug.log*
+
+# 敏感文件——本项目不应包含任何密钥,此为纵深防御
+.secrets/
+*.key
+*.pem
+*api-key*
+
+# 临时文件
+tmp_*
+*.tmp
+*~
